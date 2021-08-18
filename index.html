@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+
+    <!-- Site Name -->
+    <title>Weather Check</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    
+    <!-- Design -->
+    <div class="container">
+        
+        <h1 id="webTitle">Weather Check</h1>
+
+        <!-- city search -->
+        <div class="citySearch">
+            <input type="text" id="city" placeholder="Search Location">
+
+            <button class="btn" id="searchBtn">Search</button>
+        </div>
+
+        <!-- Search Card Result -->
+        <div class="weather-status">
+            <img src="./favicon.png" alt="" id="show-weather-icon">
+            <h1 id="show-city">- - - </h1>
+            <h2><span id="show-temperature">- - -</span> &deg;C</h2>
+            <h1 id="show-weather-type">- - -</h1>
+        </div>
+
+
+        <!-- footer -->
+        <p class="footer">&copy; 2021 by <span>Sunjid</span></p>
+
+    </div>
+
+
+    <!--  JavaScript Part-->
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
