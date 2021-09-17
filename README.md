@@ -10,3 +10,4 @@
 1. Vanilla.js
 2. HTML & CSS 
 
+### `Deployment - Github Pages Hosting`
